@@ -9,6 +9,4 @@ Conexión a MySQL mediante un módulo de conexion.php.
 
 Formularios HTML/CSS para crear y editar registros.
 
-Listado de clientes con opciones de actualización y eliminación.
-
 Validaciones de entrada con JavaScript.
