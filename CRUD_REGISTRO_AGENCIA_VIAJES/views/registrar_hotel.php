@@ -5,8 +5,8 @@
   <title>Registrar Hotel</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-   <script src="js/validaciones.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="js/validaciones.js"></script>
 
 </head>
 <body>
