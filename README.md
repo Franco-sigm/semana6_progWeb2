@@ -10,3 +10,12 @@ Conexión a MySQL mediante un módulo de conexion.php.
 Formularios HTML/CSS para crear y editar registros.
 
 Validaciones de entrada con JavaScript.
+
+
+Para colaborar :):
+
+# Instalación rápida
+git clone https://github.com/Franco-sigm/semana6_progWeb2.git
+cd semana6_progWeb2
+
+
