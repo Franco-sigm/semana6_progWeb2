@@ -9,6 +9,7 @@
   <script src="js/validaciones.js"></script>
 </head>
 <body>
+
 <section class="section">
   <div class="container">
     <h2 class="title is-4 has-text-centered">🏨 Hoteles con más de 2 reservas</h2>
