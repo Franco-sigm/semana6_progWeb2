@@ -1,6 +1,8 @@
 <?php
-class Reserva {
-    public static function insertar($conn, $id_cliente, $fecha_reserva, $id_vuelo, $id_hotel) {
+class Reserva
+{
+    public static function insertar($conn, $id_cliente, $fecha_reserva, $id_vuelo, $id_hotel)
+    {
         if (!$conn) {
             error_log("Conexión no válida en Reserva::insertar");
             return false;
@@ -27,7 +29,8 @@ class Reserva {
     }
 
 
-    public static function hotelesConMasDeDosReservas($conn) {
+    public static function hotelesConMasDeDosReservas($conn)
+    {
         $sql = "
         SELECT h.id_hotel, h.nombre, h.ubicacion, COUNT(r.id_reserva) AS total_reservas
         FROM HOTEL h
@@ -37,6 +40,5 @@ class Reserva {
         ORDER BY total_reservas DESC
         ";
         return mysqli_query($conn, $sql);
-  
-   }
+    }
 }
