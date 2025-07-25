@@ -16,4 +16,10 @@ Validaciones de entrada con JavaScript.
 git clone https://github.com/Franco-sigm/semana6_progWeb2.git
 cd semana6_progWeb2
 
+## 📦 Importar la base de datos
+
+1. Abre MySQL Workbench o phpMyAdmin.
+2. Crea una nueva pestaña de consulta.
+3. Copia y pega el contenido del archivo `bd/sql.sql`.
+4. Ejecuta todo el script.
 
